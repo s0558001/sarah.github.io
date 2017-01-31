@@ -10,26 +10,32 @@ background-color: LightGrey;
 h1 {
   font-size: 50px;
   font-weight: normal;
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
   padding-top: 200px
+}
 
+.Logo {
+  width: 10%;
+  padding-top: 200px
+  align-content: center;
+  padding-top: 50px;
+}
+
+
+.content{
+  display: flex;
+  align-content: center;
+  padding-top: 50px;
 }
 
 img {
   border-radius: 100%;
-  width: 10%;
-}
-
-h2 {
-  color: black;
-  font-weight: normal;
+  width: 70%;
 }
 
 div#Ueber {
-text-align: left;
-margin-left: 100px;
+text-align: center;
+margin-left: 150px
 }
 
 div#Gallerie {
@@ -37,13 +43,15 @@ text-align: center;
 }
 
 div#Kontakt {
-text-align: right;
-margin-right: 100px;
+text-align: center;;
+margin-right: 150px
 }
 
-div#UeberText {
-  text-align: left;
+h2 {
+  color: black;
+  font-weight: normal;
 }
+
 
 /* .UeberHeading {
 font-size: 20px;
