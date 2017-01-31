@@ -7,130 +7,70 @@ background-color: LightGrey;
   font-family: Montreal;
 }
 
+
 h1 {
   font-size: 50px;
   font-weight: normal;
   text-align: center;
-  padding-top: 200px
+  padding-top: 0px
 }
 
 .Logo {
-  width: 10%;
-  padding-top: 200px
-  align-content: center;
-  padding-top: 50px;
+width: 5%;
+margin-left: 50px;
+margin-top: 50px;
 }
 
+
+.content, .BildHauptseite, div#Ueber, div#Gallerie, div#Kontakt {
+  box-sizing: border-box;
+}
 
 .content{
-  display: flex;
-  align-content: center;
-  padding-top: 50px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-img {
+
+.BildHauptseite {
+  display: block;
+  width: 100%;
+  height: auto;
   border-radius: 100%;
-  width: 70%;
 }
+
 
 div#Ueber {
 text-align: center;
-margin-left: 150px
+width: 33.33%;
+float: left;
+padding: 50px;
 }
 
 div#Gallerie {
-text-align: center;
+  text-align: center;
+  width: 33.33%;
+  float: left;
+  padding: 50px;
 }
 
 div#Kontakt {
-text-align: center;;
-margin-right: 150px
+  text-align: center;
+  width: 33.33%;
+  float: left;
+  padding: 50px;
 }
 
 h2 {
   color: black;
   font-weight: normal;
+  text-decoration: none;
+  margin-top: 40px;
 }
 
 
-/* .UeberHeading {
-font-size: 20px;
-font-weight: normal;
-color: black;
-text-align: left;
-}
-
-.UeberText {
-  font-size: 16px;
-  font-weight: lighter;
-  color: black;
-  text-align: left;
-
-
-.GallerieHeading {
-font-size: 20px;
-font-weight: normal;
-color: black;
-text-align: center;
-}
-
-.GallerieText {
-  font-size: 16px;
-  font-weight: lighter;
-  color: black;
-  text-align: center;
-
-
-.KontaktHeading {
-font-size: 20px;
-font-weight: normal;
-color: black;
-text-align: right;
-}
-
-.KontaktText {
-  font-size: 16px;
-  font-weight: lighter;
-  color: black;
-  text-align: right; */
-
-
-
-/* h2 {
-  font-size: 20px;
-  font-weight: normal;
-  color: black;
-  text-align: right; */
-
-
-/* p {
-  font-size: 16px;
-  font-weight: lighter; */
-
-
-
-/*.Bild1 {
-  height: 80px;
-  width: 80px;
+.BildUeber {
   border-radius: 100%;
+  width: 80%;
 }
-
-.Bild2 {
-  height: 80px;
-  width: 60px;
-  border-radius: 100%;
-}
-
-.Bild3 {
-  height: 80px;
-  width: 90px;
-  border-radius: 100%;
-}
-
-.Bild4 {
-  height: 300px;
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 200px
-} */
