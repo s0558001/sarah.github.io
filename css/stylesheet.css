@@ -69,8 +69,23 @@ h2 {
   margin-top: 40px;
 }
 
+ /*Über*/
 
-.BildUeber {
-  border-radius: 100%;
-  width: 80%;
-}
+ .TitelAbout {
+   margin-top: 150px;
+ }
+
+ div#contentAbout {
+   text-align: center;
+   width: 100%;
+   align-content: center;
+ }
+
+ .BildAbout {
+   border-radius: 100%;
+   margin-top: 10px;
+ }
+
+div#Beschreibung {
+   margin-top: 40px;
+ }
