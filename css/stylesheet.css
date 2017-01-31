@@ -1,13 +1,110 @@
+
 body {
-background-color: white;
+background-color: LightGrey;
+}
+
+* {
+  font-family: Montreal;
 }
 
 h1 {
   font-size: 50px;
-  font-family: sans-serif;
+  font-weight: normal;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px
+
 }
 
-h2 {
-  font-size: 40px;
-  font-family: sans-serif;
+.UeberHeading {
+font-size: 20px;
+font-weight: normal;
+color: black;
+text-align: left;
+}
+
+.UeberText {
+  font-size: 16px;
+  font-weight: lighter;
+  color: black;
+  text-align: left;
+
+
+.GallerieHeading {
+font-size: 20px;
+font-weight: normal;
+color: black;
+text-align: center;
+}
+
+.GallerieText {
+  font-size: 16px;
+  font-weight: lighter;
+  color: black;
+  text-align: center;
+
+
+.KontaktHeading {
+font-size: 20px;
+font-weight: normal;
+color: black;
+text-align: right;;
+}
+
+.KontaktText {
+  font-size: 16px;
+  font-weight: lighter;
+  color: black;
+  text-align: right;
+
+
+
+/* h2 {
+  font-size: 20px;
+  font-weight: normal;
+  color: black;
+  text-align: right; */
+
+
+/* p {
+  font-size: 16px;
+  font-weight: lighter; */
+
+
+
+img {
+  border-radius: 100%;
+}
+
+.Bild1 {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+
+}
+
+.Bild2 {
+  height: 80px;
+  width: 60px;
+  border-radius: 100%;
+}
+
+.Bild3 {
+  height: 80px;
+  width: 90px;
+  border-radius: 100%;
+}
+
+.Bild4 {
+  height: 300px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px
+}
+
+
+div {
+  float: inherit;
 }
