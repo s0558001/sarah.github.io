@@ -17,7 +17,35 @@ h1 {
 
 }
 
-.UeberHeading {
+img {
+  border-radius: 100%;
+  width: 10%;
+}
+
+h2 {
+  color: black;
+  font-weight: normal;
+}
+
+div#Ueber {
+text-align: left;
+margin-left: 100px;
+}
+
+div#Gallerie {
+text-align: center;
+}
+
+div#Kontakt {
+text-align: right;
+margin-right: 100px;
+}
+
+div#UeberText {
+  text-align: left;
+}
+
+/* .UeberHeading {
 font-size: 20px;
 font-weight: normal;
 color: black;
@@ -49,14 +77,14 @@ text-align: center;
 font-size: 20px;
 font-weight: normal;
 color: black;
-text-align: right;;
+text-align: right;
 }
 
 .KontaktText {
   font-size: 16px;
   font-weight: lighter;
   color: black;
-  text-align: right;
+  text-align: right; */
 
 
 
@@ -73,15 +101,10 @@ text-align: right;;
 
 
 
-img {
-  border-radius: 100%;
-}
-
-.Bild1 {
+/*.Bild1 {
   height: 80px;
   width: 80px;
   border-radius: 100%;
-
 }
 
 .Bild2 {
@@ -102,9 +125,4 @@ img {
   margin-left: auto;
   margin-right: auto;
   padding-top: 200px
-}
-
-
-div {
-  float: inherit;
-}
+} */
