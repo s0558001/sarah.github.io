@@ -8,11 +8,13 @@ background-color: LightGrey;
 }
 
 
-h1 {
+/*Head jede Seite*/
+
+div#TitelHauptseite, div#TitelAbout, div#TitelKontakt, div#TitelGallerie {
   font-size: 50px;
   font-weight: normal;
   text-align: center;
-  padding-top: 0px
+  padding-top: 20px
 }
 
 .Logo {
@@ -21,6 +23,7 @@ margin-left: 50px;
 margin-top: 50px;
 }
 
+/*content*/
 
 .content, .BildHauptseite, div#Ueber, div#Gallerie, div#Kontakt {
   box-sizing: border-box;
@@ -71,11 +74,8 @@ h2 {
 
  /*Über*/
 
- .TitelAbout {
-   margin-top: 150px;
- }
 
- div#contentAbout {
+div#contentAbout {
    text-align: center;
    width: 100%;
    align-content: center;
@@ -89,3 +89,5 @@ h2 {
 div#Beschreibung {
    margin-top: 40px;
  }
+
+ /*Gallerie*/
