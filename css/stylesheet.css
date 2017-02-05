@@ -1,93 +1,158 @@
 
 body {
-background-color: LightGrey;
+background-color: LightGray;
 }
 
 * {
-  font-family: Montreal;
+  font-family: Montserrat;
 }
 
 
 /*Head jede Seite*/
 
 div#TitelHauptseite, div#TitelAbout, div#TitelKontakt, div#TitelGallerie {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: normal;
   text-align: center;
-  padding-top: 20px
+  padding-top: 20px;
+  color: cyan;
+
 }
 
 .Logo {
-width: 5%;
+width: 4%;
 margin-left: 50px;
 margin-top: 50px;
 }
 
-/*content*/
 
-.content, .BildHauptseite, div#Ueber, div#Gallerie, div#Kontakt {
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+  font-size: 20pt;
+}
+
+a:hover {
+  color: cyan;
+}
+
+
+
+/*Hauptseite*/
+
+.content, .IconUeber, .IconGallerie, .IconKontakt, div#Ueber, div#Gallerie, div#Kontakt {
   box-sizing: border-box;
 }
 
-.content{
+.content {
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
 
-
-.BildHauptseite {
+.IconUeber, .IconKontakt, .IconGallerie {
   display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 100%;
+  height: 300px;
+  width: auto;
+  padding: 20px;
 }
 
 
-div#Ueber {
+div#Ueber, div#Gallerie, div#Kontakt {
 text-align: center;
 width: 33.33%;
 float: left;
 padding: 50px;
 }
 
-div#Gallerie {
-  text-align: center;
-  width: 33.33%;
-  float: left;
-  padding: 50px;
-}
-
-div#Kontakt {
-  text-align: center;
-  width: 33.33%;
-  float: left;
-  padding: 50px;
-}
-
-h2 {
-  color: black;
-  font-weight: normal;
-  text-decoration: none;
+div#UeberText, div#GallerieText, div#KontaktText {
   margin-top: 40px;
 }
 
- /*Über*/
 
+/*Kontakt*/
+
+.contentKontakt, .BildKontakt, div#Facebook, div#Instagram, div#Tumblr {
+  box-sizing: border-box;
+}
+
+.contentKontakt{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.BildKontakt {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+div#Facebook, div#Tumblr, div#Instagram {
+text-align: center;
+width: 33.33%;
+float: left;
+padding: 50px;
+}
+
+div#InstagramText, div#FacebookText, div#TumblrText {
+  margin-top: 40px;
+}
+
+
+/*Gallerie*/
+
+.contentGallerie, .BildGallerie, div#BildWal, div#BildTypo {
+  box-sizing: border-box;
+}
+
+.contentGallerie {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.BildGallerie {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+
+div#BildOK, div#BildOhNein, div#BildYellow,
+div#BildFisch {
+ text-align: center;
+ width: 29%;
+ float: left;
+ padding: 20px;
+ }
+
+
+/*Über*/
 
 div#contentAbout {
-   text-align: center;
-   width: 100%;
-   align-content: center;
- }
-
- .BildAbout {
-   border-radius: 100%;
-   margin-top: 10px;
- }
+  text-align: center;
+  width: 100%;
+  align-content: center;
+}
 
 div#Beschreibung {
-   margin-top: 40px;
- }
+  width: 500px;
+  align-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
- /*Gallerie*/
+.BildAbout {
+  border-radius: 100%;
+  margin-top: 40px;
+  width: 33.33%;
+  height: auto;
+}
+
+div#Beschreibung {
+  margin-top: 40px;
+}
