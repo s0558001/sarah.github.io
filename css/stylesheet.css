@@ -78,7 +78,7 @@ div#UeberText, div#GallerieText, div#KontaktText {
 }
 
 .contentKontakt{
-  width: 800px;
+  width: 900px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -93,7 +93,7 @@ div#Facebook, div#Tumblr, div#Instagram {
 text-align: center;
 width: 33.33%;
 float: left;
-padding: 50px;
+padding: 65px;
 }
 
 div#InstagramText, div#FacebookText, div#TumblrText {
@@ -103,31 +103,24 @@ div#InstagramText, div#FacebookText, div#TumblrText {
 
 /*Gallerie*/
 
-.contentGallerie, .BildGallerie, div#BildWal, div#BildTypo {
-  box-sizing: border-box;
-}
 
 .contentGallerie {
-  width: 1000px;
+  width: 500px;
   margin-left: auto;
   margin-right: auto;
+  color: rgb(70,130,180);
+  padding-top: 30px;
 }
 
 .BildGallerie {
   display: block;
-  width: 100%;
+  width: 500px;
   height: auto;
   margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
-div#BildOK, div#BildOhNein, div#BildYellow,
-div#BildFisch {
- text-align: center;
- width: 29%;
- float: left;
- padding: 20px;
- }
 
 
 /*Über*/
@@ -153,5 +146,5 @@ div#Beschreibung {
 
 div#Beschreibung {
   margin-top: 40px;
-  color: rgb(70,130,180)
+  color: rgb(70,130,180);
 }
